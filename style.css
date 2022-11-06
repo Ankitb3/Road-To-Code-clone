@@ -4,7 +4,16 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+   width: 100%;
+  
+}
+#coursess{
+    scroll-behavior: smooth;
+}
 .profile{
     border-radius: 100%;
     height: 43px;
@@ -47,25 +56,175 @@
 .call img{
    background-color: white;
 }
+/* ***Footer section***** */
+.footer{
+    height: 50vh;
+    color: whitesmoke;
+    background-color: #212529
+    
+;
+}
+.footer p{
+    color: whitesmoke;
+}
 /* .hero-section button{
 
 } */
 
 /* ************about-section********** */
 .about{
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 .about h2{
     text-align: center;
+    font-size: 50px;
+   
 }
-.a{
-    background-color: yellow;
+
+.about1{
+    width: 100%;
+    
+}
+.one{
+    /* background-color: yellow; */
     height: 30vh;
+    display: flex;
+    justify-content: center;
 }
-.b{
-    background-color: green;
-        height: 30vh;
+.one img{
+    margin-top: 50px;
+    margin-left: -40px;
+    height: 80px;
+}
+
+.two{
+    background-color: blue;
+}
+
+
+/* ***************courses-section************* */
+.courses h2{
+   font-size: 3rem;
+}
+.courses-card{
+    width: 100%;
+    height: 120vh;
+    justify-content: space-around;
+    
+    
+   
+}
+.card-1{
+    /* background-color: yellow; */
+    width: 24rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.card-2{
+    /* background-color: aqua; */
+    width: 24rem;
+    box-sizing: border-box;
+        border-radius: 10px;
+}
+.card-3{
+    /* background-color: blueviolet; */
+    width: 24rem;
+    box-sizing: border-box;
+        border-radius: 10px;
+}
+.courses-card img{
+    border-radius: 10px;
+}
+.courses-card del{
+    color: red;
+    font-weight: 500;
+    font-size: 20px;
+}
+.courses-card p{
+    font-weight: 200;
+        font-size: 20px;
+}
+.instructor p{
+    margin-top: -40px;
+    
+}
+.level p {
+    margin-top: -31px;
+
+}
+.like p{
+        margin-top: -31px;
+}
+.time p {
+    margin-top: -35px;
+}
+/* *****enroll btn***** */
+.enroll {
+   width: 350px;
+   margin-bottom: 10px;
+}
+/* *******Our-teamsection****** */
+.team-content h2{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.cointainer p{
+    font-weight: 400;
+}
+
+/* ********Faq-section********** */
+.faq h2{
+    font-size: 50px;
+}
+.faqcoin{
+    /* background-color: blue; */
+    max-width: 70%;
+    height: 50vh;
+}
+/* *******learn-section****** */
+/* .fun{
+    height: 50vh;
+    margin-top: -50px;
+
+}
+.fun-logos{
+    display: flex;
+        justify-content: space-between;
+    margin-top: -75px;
+}
+.linkdin{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+   
+}
+.linkdin img{
+    border-radius: 50%;
+       
+} */
+
+/* *******fotetr******* */
+
+.quick-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.quick-links a:hover {
+    color: yellow;
+    transition: 0.2s;
+}
+.quick-links li{
+    list-style-type: none;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.foot-2 {
+  background-color: #212529;
+  max-width: 100%;
+  margin-left: 20px;
+  color: whitesmoke;
 }

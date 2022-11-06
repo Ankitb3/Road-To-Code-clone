@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Road To Code</title>
+
     <link rel="icon" type="image/x-icon" href="./Images/nav-img.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -12,14 +13,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- **********Navbar-section start********** -->
 
-    <nav class=" mynav  navbar navbar-expand-lg bg-white border shadow-sm">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./Images/nav-img.png" alt="rtc" height="40px" class="ms-5"><span
+    <nav class="  navbar navbar-expand-lg bg-white border shadow-sm fixed-top ">
+        <div class="container-fluid navbar overflow-hidden">
+            <a class="navbar-brand " href="#"><img src="./Images/nav-img.png" alt="rtc" height="40px" class="ms-5"><span
                     class="ms-3 ">Road To Code</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,7 +34,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item ms-5 ">
-                        <a class="nav-link" href="#">Courses</a>
+                        <a class="nav-link" href="#coursess">Courses</a>
                     </li>
                     <li class="nav-item ms-5">
                         <a class="nav-link" href="#">Internship</a>
@@ -41,19 +43,20 @@
                         <a class="nav-link" href="#">Campus ambassador</a>
                     </li>
                     <li class="nav-item dropdown ms-5">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#about-us" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             About us
                         </a>
-                        <ul class="dropdown-menu">
+                        <!-- <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Team</a></li>
                             <li><a class="dropdown-item" href="#">FAQ</a></li>
                             <li><a class="dropdown-item" href="#">Contact us</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="nav-item ms-5 profile ">
                         <a href="#" class="nav-link "> <img src="./Images/profile.png" alt="profile"
                                 class="profile border border-warning ms-3"><span class="ms-3">Ankit bankar</span></a>
+
                     </li>
                 </ul>
             </div>
@@ -64,41 +67,452 @@
 
 
     <!-- ********Heros-section start*********** -->
-
-    <!-- <div class="hero-section">
-        <div class="row ms-5">
-            <div class="col-5  "><img src="./Images/hero-img.png" alt="hero-img" height="400px"></div>
-            <div class="col-7 mt-5  "><h1>Quality courses at affordable <br>trusted by 1500+ <br>students.</h1></div>
-        </div>
-        
     </div> -->
-    <div class=" hero-section row">
-        <div class="col-sm-6 hero-left"><img src="./Images/hero-img.png" alt="hero-img" height="450px"></div>
+    <div class=" hero-section row overflow-hidden mt-5">
+        <div class="col-sm-6 hero-left"><img src="./Images/hero-img.png" alt="hero-img" height="450px"
+                data-aos="fade-right" data-aos-duration="1500"></div>
         <div class="col-sm-6 hero-right">
-            <h1 class="mt-5">Quality courses at affordable <br>trusted by 1500+ <br>students.</h1>
-            <p class="mt-3">Our aim is to provide affordable computer<br> science education for everyone.</p>
-            <button class="btn btn-warning mt-1 "><i><img src="./Images/search.png" alt="search" height="25px"></i><b
-                    class="ms-1">Explorer course</b></button>
-            <button class="btn call ms-5  mt-2">Call Us<i class="fas fa-headset ms-2"></i></button>
+            <h1 class="mt-5" data-aos="fade-left" data-aos-duration="1500">Quality courses at affordable <br>trusted by
+                1500+ <br>students.</h1>
+            <p class="mt-3" data-aos="fade-left" data-aos-duration="1500">Our aim is to provide affordable computer<br>
+                science education for everyone.</p>
+            <button class="btn btn-warning mt-1 " data-aos="fade-left" data-aos-duration="1500"><i><img
+                        src="./Images/search.png" alt="search" height="25px"></i><b class="ms-1">Explorer
+                    course</b></button>
+            <button class="btn call ms-5  mt-2" data-aos="fade-left" data-aos-duration="1500">Call Us<i
+                    class="fas fa-headset ms-2"></i></button>
 
         </div>
     </div>
-<!-- ******************Heros-section end********************* -->
+    <!-- ******************Heros-section end********************* -->
 
 
 
-<!-- *********************Special about rtc section*************** -->
+    <!-- *********************Special about rtc section*************** -->
 
-<div class="about row">
-    <div class="col-sm-12"><h2>What makes RTC courses special?</h2></div>
-    <div class="col-sm-6 a">1</div>
-    <div class="col-sm-6 b">2</div>
-</div>
+    <div class="about row overflow-hidden">
+        <div class="col-sm-md-12" data-aos="fade-down" data-aos-duration="1500">
+            <h2>What makes RTC courses special?</h2>
+        </div>
+    </div>
+    <!-- *******meet& lrn str****** -->
+    <div class=" about1 row overflow-hidden ">
+        <div class="one col-sm-6 col-md-6" data-aos="fade-right" data-aos-duration="1500"><span><img
+                    src="./Images/Google-Meet-Logo.jpg" alt="google-meet" height="50px"></span>
+            <h2 class="ms-5 mt-md-5">Live intractive <br>classes</h2>
+        </div>
+        <div class="one col-6" data-aos="fade-left" data-aos-duration="1500"><span><img src="./Images/str-lrn.png"
+                    alt="google-meet" height="50px"></span>
+            <h2 class="ms-5 mt-md-5">Live intractive <br>classes</h2>
+        </div>
+    </div>
+
+    <!-- **********dobt&personal************ -->
+    <div class=" about1 row overflow-hidden ">
+        <div class="one col-6" data-aos="fade-right" data-aos-duration="1500"><span><img src="./Images/doubts.png"
+                    alt="google-meet" height="50px" class="ms-4"></span>
+            <h2 class="ms-5 mt-md-5">1:1 Doubts Session </h2>
+        </div>
+        <div class="one col-6" data-aos="fade-left" data-aos-duration="1500"><span><img src="./Images/mentorship.png"
+                    alt="google-meet" height="50px" class="ms-4"></span>
+            <h2 class="ms-5 mt-md-5">Personal Mentership</h2>
+        </div>
+    </div>
+
+    <!-- ********************************* -->
+    <div class=" about1 row overflow-hidden " id="coursess">
+        <div class="one col-6" data-aos="fade-right" data-aos-duration="1500"><span><img src="./Images/saved video.png"
+                    alt="google-meet" height="50px"></span>
+            <h2 class="ms-5 mt-md-5">Live intractive <br>classes</h2>
+        </div>
+        <div class="one col-6" data-aos="fade-left" data-aos-duration="1500"><span><img
+                    src="./Images/Intership support.png" alt="google-meet" height="50px"></span>
+            <h2 class="ms-5 mt-md-5">Live intractive <br>classes</h2>
+        </div>
+    </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+
+    <!-- ******************Courses-section*************** -->
+    <div class="courses col-sm-md-12 mt-5 text-center ">
+        <h2>Courses</h2>
+    </div>
+    <div class="courses-card row d-flex mt-5 ">
+        <div class="card-1 col-md-4 shadow-lg ms-2"><img src="./Images/cpp.png" alt="cpp" height="200px" class="mt-3">
+            <h3 class="mt-4 ms-2">C++ Programing</h3>
+            <p class="mt-3"><del class="ms-2 ">₹2000</del><b class="ms-2">₹</b>499 only/-<span
+                    class="badge rounded-pill bg-success ms-3">75% OFF</span></p>
+
+            <!-- <span><img src="./Images/instructor.png" alt="instr" height="40px"class="mt-4"><p class="ms-5 mb-5">Instructor</p></span> -->
+            <div class="instructor ">
+                <img src="./Images/instructor.png" alt="isntructor" height="42px">
+                <p class="ms-5">Instructor:<b>Suraj shende</b></p>
+            </div>
+            <div class="level mt-4">
+                <img src="./Images/level.png" alt="level" height="35px">
+                <p class="ms-5 ">Level:<b class="fw-lighter">Beginner</b></p>
+            </div>
+            <div class="like mt-4">
+                <img src="./Images/like.png" alt="level" height="35px">
+                <p class="ms-5 ">Rating: <span><img src="./Images/rating.png" alt="" height="30px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/halfstar.png" height="28px">(354)
+
+                    </span></p>
+                <!-- ********time -->
+                <div class="time mt-4">
+                    <img src="./Images/watch.png" alt="level" height="35px">
+                    <p class="ms-5 ">Batch Time:<b class="fw-lighter">8:00PM to 9:00PM</b></p>
+                </div>
+                <!-- ********calender**** -->
+                <div class="calender mt-4">
+                    <img src="./Images/calender.png" alt="level" height="35px">
+                    <p class="ms-5 ">Start on:<b class="fw-lighter">&nbsp;&nbsp;7<sup>th</sup>&nbsp;November 2022</b>
+                    </p>
+                </div>
+                <!-- *******cal here****** -->
+                <div class="time mt-4">
+                    <img src="./Images/call.png" alt="level" height="35px">
+                    <p class="ms-5 ">Call here to join course<b class="fw-lighter">:<a href="#">&nbsp;7821011979</a></b>
+                    </p>
+                </div>
+
+                <button class="enroll btn btn-warning p-3 mt-3">Enroll now</button>
+
+
+            </div>
+        </div>
+        <div class="card-2 col-4  shadow-lg"><img src="Images/icp.png" alt="mern" height="200px" class="mt-3">
+            <h3 class="mt-4 ms-2">Internship Cohort Program</h3>
+            <p class="mt-3"><del class="ms-2 ">₹2000</del><b class="ms-2">₹</b>499 only/-<span
+                    class="badge rounded-pill bg-success ms-3">75% OFF</span></p>
+
+            <!-- <span><img src="./Images/instructor.png" alt="instr" height="40px"class="mt-4"><p class="ms-5 mb-5">Instructor</p></span> -->
+            <div class="instructor ">
+                <img src="./Images/instructor.png" alt="isntructor" height="42px">
+                <p class="ms-5">Instructor:<b>Suraj shende</b></p>
+            </div>
+            <div class="level mt-4">
+                <img src="./Images/level.png" alt="level" height="35px">
+                <p class="ms-5 ">Level:<b class="fw-lighter">Beginner</b></p>
+            </div>
+            <div class="like mt-4">
+                <img src="./Images/like.png" alt="level" height="35px">
+                <p class="ms-5 ">Rating: <span><img src="./Images/rating.png" alt="" height="30px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/halfstar.png" height="28px">(154)
+
+                    </span></p>
+                <!-- ********time -->
+                <div class="time mt-4">
+                    <img src="./Images/watch.png" alt="level" height="35px">
+                    <p class="ms-5 ">Batch Time:<b class="fw-lighter">7:00PM to 8:00PM</b></p>
+                </div>
+                <!-- ********calender**** -->
+                <div class="calender mt-4">
+                    <img src="./Images/calender.png" alt="level" height="35px">
+                    <p class="ms-5 ">Start on:<b class="fw-lighter">&nbsp;&nbsp;15<sup>th</sup>&nbsp;December 2022</b>
+                    </p>
+                </div>
+                <!-- *******cal here****** -->
+                <div class="time mt-4">
+                    <img src="./Images/call.png" alt="level" height="35px">
+                    <p class="ms-5 ">Call here to join course<b class="fw-lighter">:<a href="#">&nbsp;7821011979</a></b>
+                    </p>
+                </div>
+
+                <button class="enroll btn btn-warning p-3 mt-3">Enroll now</button>
+
+
+            </div>
+        </div>
+        <div class="card-3 col-4  shadow-lg "><img src="./Images/python.png" alt="py" height="200px" class="mt-3">
+            <h3 class="mt-4 ms-2">Python Programing</h3>
+            <p class="mt-3"><del class="ms-2 ">₹2000</del><b class="ms-2">₹</b>499 only/-<span
+                    class="badge rounded-pill bg-success ms-3">75% OFF</span></p>
+
+            <!-- <span><img src="./Images/instructor.png" alt="instr" height="40px"class="mt-4"><p class="ms-5 mb-5">Instructor</p></span> -->
+            <div class="instructor ">
+                <img src="./Images/instructor.png" alt="isntructor" height="42px">
+                <p class="ms-5">Instructor:<b>Vaibhavi Hole</b></p>
+            </div>
+            <div class="level mt-4">
+                <img src="./Images/level.png" alt="level" height="35px">
+                <p class="ms-5 ">Level:<b class="fw-lighter">Beginner</b></p>
+            </div>
+            <div class="like mt-4">
+                <img src="./Images/like.png" alt="level" height="35px">
+                <p class="ms-5 ">Rating: <span><img src="./Images/rating.png" alt="" height="30px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/rating.png" height="28px">
+                        <img src="./Images/halfstar.png" height="28px">(507)
+
+                    </span></p>
+                <!-- ********time -->
+                <div class="time mt-4">
+                    <img src="./Images/watch.png" alt="level" height="35px">
+                    <p class="ms-5 ">Batch Time:<b class="fw-lighter">6:00PM to 7:00PM</b></p>
+                </div>
+                <!-- ********calender**** -->
+                <div class="calender mt-4">
+                    <img src="./Images/calender.png" alt="level" height="35px">
+                    <p class="ms-5 ">Start on:<b class="fw-lighter">&nbsp;&nbsp;7<sup>th</sup>&nbsp;November 2022</b>
+                    </p>
+                </div>
+                <!-- *******cal here****** -->
+                <div class="time mt-4">
+                    <img src="./Images/call.png" alt="level" height="35px">
+                    <p class="ms-5 ">Call here to join course<b class="fw-lighter">:<a href="#">&nbsp;7821011979</a></b>
+                    </p>
+                </div>
+
+                <button class="enroll btn btn-warning p-3 mt-3">Enroll now</button>
+
+
+            </div>
+        </div>
+        <!-- *************courses card 4-5**************** -->
+        <!-- <div class="courses col-sm-md-12 mt-5 text-center ">
+    <h2>Courses</h2>
+</div> -->
+        <div class="courses-card row d-flex mt-5 dsa ">
+            <div class="card-1 col-md-4 shadow-lg ms-2"><img src="./Images/dsa.png" alt="cpp" height="200px"
+                    class="mt-3">
+                <h3 class="mt-4 ms-2">Data Structures and Algorithms </h3>
+                <p class="mt-3"><del class="ms-2 ">₹4000</del><b class="ms-2">₹</b>499 only/-<span
+                        class="badge rounded-pill bg-success ms-3">88% OFF</span></p>
+
+                <!-- <span><img src="./Images/instructor.png" alt="instr" height="40px"class="mt-4"><p class="ms-5 mb-5">Instructor</p></span> -->
+                <div class="instructor ">
+                    <img src="./Images/instructor.png" alt="isntructor" height="42px">
+                    <p class="ms-5">Instructor:<b>Suraj shende</b></p>
+                </div>
+                <div class="level mt-4">
+                    <img src="./Images/level.png" alt="level" height="35px">
+                    <p class="ms-5 ">Level:<b class="fw-lighter">Beginner and Intermediate</b></p>
+                </div>
+                <div class="like mt-4">
+                    <img src="./Images/like.png" alt="level" height="35px">
+                    <p class="ms-5 ">Rating: <span><img src="./Images/rating.png" height="30px">
+                            <img src="./Images/rating.png" height="28px">
+                            <img src="./Images/rating.png" height="28px">
+                            <img src="./Images/rating.png" height="28px">
+                            <img src="./Images/halfstar.png" height="28px">(263)
+
+                        </span></p>
+                    <!-- ********time -->
+                    <div class="time mt-4">
+                        <img src="./Images/watch.png" alt="level" height="35px">
+                        <p class="ms-5 ">Batch Time:<b class="fw-lighter">8:00AM to 9:00AM</b></p>
+                    </div>
+                    <!-- ********calender**** -->
+                    <div class="calender mt-4">
+                        <img src="./Images/calender.png" alt="level" height="35px">
+                        <p class="ms-5 ">Start on:<b class="fw-lighter">&nbsp;&nbsp;1<sup>st</sup>&nbsp;February
+                                2023</b></p>
+                    </div>
+                    <!-- *******cal here****** -->
+                    <div class="time mt-4">
+                        <img src="./Images/call.png" alt="level" height="35px">
+                        <p class="ms-5 ">Call here to join course<b class="fw-lighter">:<a
+                                    href="#">&nbsp;7821011979</a></b></p>
+                    </div>
+
+                    <button class="enroll btn btn-warning p-3 mt-3">Enroll now</button>
+
+
+                </div>
+            </div>
+            <!-- *********2nd******** -->
+            <div class="card-1 col-md-4 shadow-lg ms-2"><img src="./Images/c.png" alt="cpp" height="200px" class="mt-3">
+                <h3 class="mt-5 ms-2">C programming</h3>
+                <p class="mt-3"><del class="ms-2 ">₹2000</del><b class="ms-2">₹</b>499 only/-<span
+                        class="badge rounded-pill bg-success ms-3">75% OFF</span></p>
+
+                <!-- <span><img src="./Images/instructor.png" alt="instr" height="40px"class="mt-4"><p class="ms-5 mb-5">Instructor</p></span> -->
+                <div class="instructor ">
+                    <img src="./Images/instructor.png" alt="isntructor" height="42px">
+                    <p class="ms-5">Instructor:<b>Suraj shende</b></p>
+                </div>
+                <div class="level mt-4">
+                    <img src="./Images/level.png" alt="level" height="35px">
+                    <p class="ms-5 ">Level:<b class="fw-lighter">Beginner</b></p>
+                </div>
+                <div class="like mt-4">
+                    <img src="./Images/like.png" alt="level" height="35px">
+                    <p class="ms-5 ">Rating: <span><img src="./Images/rating.png" alt="" height="30px">
+                            <img src="./Images/rating.png" height="28px">
+                            <img src="./Images/rating.png" height="28px">
+                            <img src="./Images/rating.png" height="28px">
+                            <img src="./Images/halfstar.png" height="28px">(407)
+
+                        </span></p>
+                    <!-- ********time -->
+                    <div class="time mt-4">
+                        <img src="./Images/watch.png" alt="level" height="35px">
+                        <p class="ms-5 ">Batch Time:<b class="fw-lighter">7:00PM to 8:00PM</b></p>
+                    </div>
+                    <!-- ********calender**** -->
+                    <div class="calender mt-4">
+                        <img src="./Images/calender.png" alt="level" height="35px">
+                        <p class="ms-5 ">Start on:<b class="fw-lighter">&nbsp;&nbsp;1<sup>st</sup>&nbsp;February
+                                2023</b></p>
+                    </div>
+                    <!-- *******cal here****** -->
+                    <div class="time mt-4">
+                        <img src="./Images/call.png" alt="level" height="35px">
+                        <p class="ms-5 ">Call here to join course<b class="fw-lighter">:<a
+                                    href="#">&nbsp;7821011979</a></b></p>
+                    </div>
+
+                    <button class="enroll btn btn-warning p-3 mt-3">Enroll now</button>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- *****Our team section******* -->
+        <div class="cointainer row">
+            <div class="team-content col-12 text-center mt-5 ">
+                <h2>Our Team</h2>
+                <p class="text-center mt-4 ">We are mad teachers/programmers who love to teach and make students learn.
+                </p>
+                <span class="mt-3 ms-2 "><img src="./Images/ourteam.jpeg" alt="taem" height="400px"
+                        class="shadow-lg"></span>
+            </div>
+        </div>
+
+        <!-- ***********FAQ-section************ -->
+        <div class="faq mt-5 text-center" id="about-us">
+            <h2>FAQs about RTC courses</h2>
+        </div>
+        <div class="faqcoin mt-3">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How many time can i book 1:1 doubts session?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">For each course you can book 1 doubt session per week</div>
+                    </div>
+                </div>
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Does this course come with certificate?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes. All of our paid course comes with certificate.</div>
+                    </div>
+                </div>
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Do you offer refund
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">We do not offer refund at this platform. Sorry, We are not a
+                            marketplace where quality can be miss lead by fake reviews.</div>
+                    </div>
+                </div>
+                <div class="accordion-item p-3">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Do you offer refund
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">We do not offer refund at this platform. Sorry, We are not a
+                            marketplace where quality can be miss lead by fake reviews.</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- ***********Learning fun-section************ -->
+
+        <!-- <div class="fun row mt-4">
+          <h2 class="text-center mt-4">Learning is fun.join us to learn more</h2>
+          <div class="fun-logos ">
+         <div class="col-3 linkdin"><img src="./Images/linkdin.png" height="120px"></div>
+         <div class="col-3 bg-danger">2</div>
+         <div class="col-3 bg-warning">3</div>
+         <div class="col-3 bg-dark">4</div></div>
+        </div> -->
+
+
+        <!-- *********footer-section******* -->
+        <div class="footer row mt-5 ms-2">
+            <div class="col-3 "><img src="./Images/nav-img.png" alt="rtc" height="80px" class="ms-2 mt-4"><span
+                    class="fw-bold ms-4 mt-5 fs-3">Road To Code</span>
+                <p class="mt-4 fw-bolder">Affordable Computer Science Education For Everyone. We Provide Quality courses
+                    which are trusted by 1500+ students.</p>
+            </div>
+            <div class="col-3  text-center ">
+                <h3 class="ms-5 mt-4">Quick links</h3>
+                <span class="quick-links ">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div class="col-3 "><span class="quick-links ">
+                    <h3 class="ms-5 mt-4">Learn</h3>
+                    <ul>
+                        <li><a href="#">Data structure</a></li>
+                        <li><a href="#">Web devlopment</a></li>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Android devlopment</a></li>
+                    </ul>
+                </span></div>
+            <div class="col-3 "><span class="quick-links ">
+                    <h3 class="ms-5 mt-4">Contact us</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-location"></i>Nagpur,Maharastra</a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i>+91-8805803086</a></li>
+                        <li><a href="#"><i class="fa-regular fa-envelope"></i>Roadtocode4u@gmail.com</a></li>
+                        <!-- <li><a href="#" class="fs-1"><i class="fa-brands fa-github"></i></a></li> -->
+                    </ul>
+                </span></div>
+        </div>
+        <div class="foot-2">
+            <h5 class="text-center">Copyright © Road to Code 2021.</h5>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+
+            </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./index.js"></script>
 </body>
 
 </html>
